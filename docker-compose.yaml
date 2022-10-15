@@ -1,0 +1,10 @@
+version: "3"
+services:
+    discord:
+        container_name: discord
+        restart: always
+        build:
+            dockerfile: Dockerfile
+            context: ./
+        env_file: 
+            - .env
