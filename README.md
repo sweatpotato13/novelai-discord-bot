@@ -1,9 +1,9 @@
 <div id="top"></div>
 <p align="center">
-<img src=https://img.shields.io/github/stars/sweatpotato13/nyaai-discord-bot?style=for-the-badge&logo=appveyor&color=blue />
-<img src=https://img.shields.io/github/forks/sweatpotato13/nyaai-discord-bot?style=for-the-badge&logo=appveyor&color=blue />
-<img src=https://img.shields.io/github/issues/sweatpotato13/nyaai-discord-bot?style=for-the-badge&logo=appveyor&color=informational />
-<img src=https://img.shields.io/github/issues-pr/sweatpotato13/nyaai-discord-bot?style=for-the-badge&logo=appveyor&color=informational />
+<img src=https://img.shields.io/github/stars/sweatpotato13/novelai-discord-bot?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/forks/sweatpotato13/novelai-discord-bot?style=for-the-badge&logo=appveyor&color=blue />
+<img src=https://img.shields.io/github/issues/sweatpotato13/novelai-discord-bot?style=for-the-badge&logo=appveyor&color=informational />
+<img src=https://img.shields.io/github/issues-pr/sweatpotato13/novelai-discord-bot?style=for-the-badge&logo=appveyor&color=informational />
 </p>
 <br />
 <!-- PROJECT LOGO -->
@@ -13,27 +13,25 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/sweatpotato13/nyaai-discord-bot">
+  <a href="https://github.com/sweatpotato13/novelai-discord-bot">
     <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
-<h3 align="center">nyaai-discord-bot</h3>
+<h3 align="center">novelai-discord-bot</h3>
 
   <p align="center">
-    Discord bot for nyaai image generator
+    Discord bot for novelai image generator
     <br />
-    <a href="https://github.com/sweatpotato13/nyaai-discord-bot"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/sweatpotato13/novelai-discord-bot"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/sweatpotato13/nyaai-discord-bot">View Demo</a>
+    <a href="https://github.com/sweatpotato13/novelai-discord-bot">View Demo</a>
     ·
-    <a href="https://github.com/sweatpotato13/nyaai-discord-bot/issues">Report Bug</a>
+    <a href="https://github.com/sweatpotato13/novelai-discord-bot/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sweatpotato13/nyaai-discord-bot/issues">Request Feature</a>
+    <a href="https://github.com/sweatpotato13/novelai-discord-bot/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -62,17 +60,15 @@
   </ol>
 </details>
 
-
-
 ### Built With
 
-* [Node.js](https://nodejs.org)
-* [docker](https://www.docker.com/)
+-   [Node.js](https://nodejs.org)
+-   [docker](https://www.docker.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -81,9 +77,9 @@ To get a local copy up and running follow these simple example steps.
 ### Installation
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/sweatpotato13/nyaai-discord-bot.git
-   ```
+    ```sh
+    git clone https://github.com/sweatpotato13/novelai-discord-bot.git
+    ```
 
 ## Add Bot to your server
 
@@ -92,14 +88,15 @@ To get a local copy up and running follow these simple example steps.
 1. Fill out .env file include Bot token from [Discord Developer Portal](https://discord.com/developers/applications)
 
 2. Run the following command to start the bot
-   ```sh
-   yarn start
-   ```
+
+    ```sh
+    yarn start
+    ```
 
 3. You can use Docker instead of yarn
-   ```sh
-   docker-compose up
-   ```
+    ```sh
+    docker-compose up
+    ```
 
 ### Add Existing bot
 
@@ -107,8 +104,8 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -124,10 +121,10 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONTACT -->
+
 ## Contact
 
-Project Link: [https://github.com/sweatpotato13/nyaai-discord-bot](https://github.com/sweatpotato13/nyaai-discord-bot)
+Project Link: [https://github.com/sweatpotato13/novelai-discord-bot](https://github.com/sweatpotato13/novelai-discord-bot)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

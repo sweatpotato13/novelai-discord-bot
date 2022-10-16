@@ -1,17 +1,17 @@
 {
-    "name": "nyaai-discord-bot",
+    "name": "novelai-discord-bot",
     "version": "1.0.0",
-    "description": "nyaai-discord-bot",
+    "description": "novelai-discord-bot",
     "main": "./dist/src/index.js",
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sweatpotato13/nyaai-discord-bot.git"
+        "url": "https://github.com/sweatpotato13/novelai-discord-bot.git"
     },
     "bugs": {
-        "url": "https://github.com/sweatpotato13/nyaai-discord-bot/issues"
+        "url": "https://github.com/sweatpotato13/novelai-discord-bot/issues"
     },
-    "homepage": "https://github.com/sweatpotato13/nyaai-discord-bot",
+    "homepage": "https://github.com/sweatpotato13/novelai-discord-bot",
     "files": [
         "dist"
     ],
@@ -84,10 +84,11 @@
         "dotenv": "^16.0.1",
         "fs": "^0.0.1-security",
         "https": "^1.0.0",
-        "nyaai": "^1.0.0",
+        "novelai": "^1.0.0",
         "path": "^0.12.7",
         "pg": "^8.7.3",
         "reflect-metadata": "^0.1.13",
-        "socks-proxy-agent": "^7.0.0"
+        "socks-proxy-agent": "^7.0.0",
+        "typeorm": "^0.3.10"
     }
 }

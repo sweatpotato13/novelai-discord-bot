@@ -4,8 +4,10 @@ import {
     Slash,
     SlashOption,
 } from "discordx";
-import { Nyaai } from "nyaai";
+import { NovelAi } from "novelai";
 
+import { postgresConfig } from "../config/typeorm";
+import { User } from "../entities";
 @Discord()
 export class Generate {
     @Slash("generate", { description: "Generate AI image" })
@@ -19,9 +21,24 @@ export class Generate {
 
     async generate(tag: string, interaction: CommandInteraction): Promise<void> {
         try {
-            const nyaai = new Nyaai();
-            const accessToken = await (await nyaai.login()).accessToken;
-            const image = await (await nyaai.generateImage(tag, accessToken)).imageBase64;
+            const userRepo = await postgresConfig.getRepository(User);
+            const user = await userRepo.find({
+                where: {
+                    userId: interaction.user.id
+                }
+            });
+
+            if (user.length === 0) {
+                await interaction.editReply(`You need to login first!`);
+                return;
+            }
+            const existUser = user[0];
+            if (existUser.accessToken === undefined) {
+                await interaction.editReply(`You need to login first!`);
+            }
+
+            const nyaai = new NovelAi();
+            const image = await (await nyaai.generateImage(tag, existUser.accessToken as string)).imageBase64;
             const imageBuffer = Buffer.from(image, "base64");
             const attachment = new AttachmentBuilder(imageBuffer, { name: 'image.png' })
 
