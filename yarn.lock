@@ -6174,7 +6174,7 @@ __metadata:
     jest: 27.5.1
     lint-staged: ^12.3.3
     nodemon: ^2.0.19
-    novelai: ^1.0.1
+    novelai: ^1.0.3
     path: ^0.12.7
     pg: ^8.7.3
     prettier: ^2.5.1
@@ -6190,13 +6190,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"novelai@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "novelai@npm:1.0.1"
+"novelai@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "novelai@npm:1.0.3"
   dependencies:
     axios: ^0.27.2
     libsodium-wrappers: ^0.7.10
-  checksum: f1a3acdfe55dd558b51f370cc654a8ae6fa1da06ce1edb1460910e0e2dcbf1eeaeb9054f8fb70e16ac8c56d027162969fca0e5b80900fb6dd0be2fd79affbe20
+  checksum: 8d8cc80633c290176c6812e30ecf141b15440f4045bf4ced0378f3c83610b979c1ec59ab093069aca419a63689263cc51b25c6de8a2ea48718216df884dd9f3c
   languageName: node
   linkType: hard
 
