@@ -10,7 +10,7 @@ import { postgresConfig } from "../config/typeorm";
 import { User } from "../entities";
 @Discord()
 export class Login {
-    @Slash("login", { description: "login to your Riot account." })
+    @Slash("login", { description: "login to your novelai.net account." })
     slashLogin(
         @SlashOption("email", { description: "novelai.net email" })
         email: string,
